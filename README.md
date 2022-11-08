@@ -31,9 +31,12 @@ import threading
 
 ## 기타
 
+<a href="">
 
+  <img src="https://img.shields.io/badge/강의 영상-ffffff?style=flat-square&logo=youtube&logoColor=red"/>
 
-
+</a>
+<br/>
 
 
 
