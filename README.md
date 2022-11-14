@@ -31,12 +31,12 @@ import threading
 2.자체 실행한다
 
 
-<h1>만드는 영상 보러가기</h1>
+<h1>사용하는 영상 보러가기</h1>
 <br/>
 
-<a href="">
+<a href="https://youtu.be/am2l-OoQUSY">
 
-  <img src="https://img.shields.io/badge/만드는 영상-181717?style=flat-square&logo=youtube&logoColor=red"/>
+  <img src="https://img.shields.io/badge/사용하는 영상-181717?style=flat-square&logo=youtube&logoColor=red"/>
 
 </a>
 <br/>
