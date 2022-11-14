@@ -12,46 +12,46 @@ def press():
     input_text=A.get()
     L2.configure(text="누르실 키는"+input_text+"입니다")
     time.sleep(1)
-    L2.configure(text="start:\'!\' exit:\'@\'\n rightClick:\'#\' leftClick:\'$\' ")  
+    L2.configure(text="start:\'1\' exit:\'2\'\n rightClick:\'3\' leftClick:\'4\' ")  
     while 1:    
-        if keyboard.is_pressed('!'):       
-            L2.configure(text="stop:\'%\'") 
+        if keyboard.is_pressed('1'):       
+            L2.configure(text="stop:\'5\'") 
             while 1:
               pyautogui.press(input_text)
               print('Do it') 
               time.sleep(0.01) 
-              if keyboard.is_pressed('%'):
+              if keyboard.is_pressed('5'):
                 L2.configure(text="Restart:click button")
                 time.sleep(3)
                 L2.configure(text="")                                        
                 print("stop program.")      
                 break
-        elif keyboard.is_pressed('#'):
-            L2.configure(text="stop:\'%\'")        
+        elif keyboard.is_pressed('3'):
+            L2.configure(text="stop:\'5\'")        
             while 1:               
               pyautogui.rightClick()
               print('Do it') 
-              time.sleep(0.1)
-              if keyboard.is_pressed('%'): 
+              time.sleep(0.01)
+              if keyboard.is_pressed('5'): 
                 L2.configure(text="Restart:click button")
                 time.sleep(3)
                 L2.configure(text="")                                        
                 print("stop program.")      
                 break                                       
-        elif keyboard.is_pressed('$'): 
-            L2.configure(text="stop:\'%\'")       
+        elif keyboard.is_pressed('4'): 
+            L2.configure(text="stop:\'5\'")       
             while 1:               
               pyautogui.leftClick()
               print('Do it') 
-              time.sleep(0.1)
-              if keyboard.is_pressed('%'):
+              time.sleep(0.01)
+              if keyboard.is_pressed('5'):
                 L2.configure(text="Restart:click button")
                 time.sleep(3)
                 L2.configure(text="")                                        
                 print("stop program.")      
                 break                                      
                                
-        if keyboard.is_pressed('@'):
+        if keyboard.is_pressed('2'):
           L2.configure(text="Restart:click button")
           time.sleep(3)
           L2.configure(text="")
