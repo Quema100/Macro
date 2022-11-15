@@ -10,7 +10,7 @@ def th():
 def press():
     global input_text
     input_text=A.get()
-    L2.configure(text="누르실 키는"+input_text+"입니다")
+    L2.configure(text=f"누르실 키는\"{input_text}\"입니다")
     time.sleep(1)
     L2.configure(text="start:\'1\' exit:\'2\'\n rightClick:\'3\' leftClick:\'4\' ")  
     while 1:    
