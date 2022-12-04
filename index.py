@@ -91,7 +91,7 @@ def press():
 window1=tk.Tk()
 window1.geometry("600x500")
 window1.resizable(False,False)
-window1.title('매크로')
+window1.title('')
 
 L1=tk.Label(window1,text=" 원하는 키를 입력하세요 \n ex) f12,enter,shift....",height=4)
 L1.pack()
@@ -102,13 +102,13 @@ A.pack(ipadx=10, padx=10)
 L0=tk.Label(window1,text="",height=1)
 L0.pack()
 
-B=tk.Button(window1, text="입력",command=th)
+B=tk.Button(window1, text="Click",command=th)
 B.pack()
 
 L2=tk.Label(window1, text=' ',height=5)
 L2.pack()
 
-L3=tk.Label(window1,text="설정할 초를 입력하세요",height=2)
+L3=tk.Label(window1,text="설정할 시간을 입력하세요",height=2)
 L3.pack()
 
 C=tk.Entry(window1)
@@ -117,7 +117,7 @@ C.pack(ipadx=10, padx=10)
 L4=tk.Label(window1,text="",height=1)
 L4.pack()
 
-D=tk.Button(window1, text="입력",command=th2)
+D=tk.Button(window1, text="Click",command=th2)
 D.pack()
 
 L5=tk.Label(window1, text=' ',height=5)
