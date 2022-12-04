@@ -91,7 +91,7 @@ def press():
 window1=tk.Tk()
 window1.geometry("600x500")
 window1.resizable(False,False)
-window1.title('')
+window1.title('Macro')
 
 L1=tk.Label(window1,text=" 원하는 키를 입력하세요 \n ex) f12,enter,shift....",height=4)
 L1.pack()
