@@ -5,6 +5,8 @@ import pyautogui
 import keyboard
 import time 
 import threading
+from tkinter import messagebox
+import pyperclip
 ```
 ### 추가해야할 모듈
 1.`pip install tkinter`
@@ -17,6 +19,9 @@ import threading
 
 5.`pip install threading`
 
+6.`pip install messagebox`
+
+7.`pip install pyperclip`
 
 # 사용방법
 
@@ -34,7 +39,7 @@ import threading
 <h1>사용하는 영상 보러가기</h1>
 <br/>
 
-<a href="https://youtu.be/am2l-OoQUSY">
+<a href="https://quema100.github.io/sussypage/">
 
   <img src="https://img.shields.io/badge/사용하는 영상-181717?style=flat-square&logo=youtube&logoColor=red"/>
 
