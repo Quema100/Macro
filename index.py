@@ -18,7 +18,7 @@ def press3():
       n=float(n)
       L7.configure(text=f"누르실 키는\"{input_text}\"입니다")
       time.sleep(1)
-      L7.configure(text="start:\'1\' exit:\'2\' ")  
+      L7.configure(text="start:\'1\' exit:\'2\' text+enter:\'3\' ")  
       while 1:    
           if keyboard.is_pressed('1'):       
               L7.configure(text="stop:\'5\'") 
@@ -32,7 +32,21 @@ def press3():
                      time.sleep(3)
                      L7.configure(text="")                                        
                      print("stop program.")      
-                     break                  
+                     break          
+          if keyboard.is_pressed('3'):       
+              L7.configure(text="stop:\'5\'") 
+              while 1: 
+                    pyperclip.copy(input_text) 
+                    pyautogui.hotkey('ctrl', 'v')
+                    print('Do it')
+                    pyautogui.press('enter')
+                    time.sleep(n) 
+                    if keyboard.is_pressed('5'):
+                     L7.configure(text="Restart:click button")
+                     time.sleep(3)
+                     L7.configure(text="")                                        
+                     print("stop program.")      
+                     break                      
           if keyboard.is_pressed('2'):
             L7.configure(text="Restart:click button")
             time.sleep(3)
