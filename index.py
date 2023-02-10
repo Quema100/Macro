@@ -158,7 +158,7 @@ L0.pack()
 B=tk.Button(window1, text="Click",command=th)
 B.pack()
 
-L2=tk.Label(window1, text=' ',height=1)
+L2=tk.Label(window1, text=' ',height=2)
 L2.pack()
 
 L6=tk.Label(window1,text="원하시는 문장 또는 단어를 입력하세요",height=4)
