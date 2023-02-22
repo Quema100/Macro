@@ -39,7 +39,7 @@ import pyperclip
 <h1>사용하는 영상 보러가기</h1>
 <br/>
 
-<a href="https://quema100.github.io/sussypage/">
+<a href="youtube.com">
 
   <img src="https://img.shields.io/badge/사용하는 영상-181717?style=flat-square&logo=youtube&logoColor=red"/>
 
