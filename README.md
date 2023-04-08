@@ -36,15 +36,5 @@ import pyperclip
 2.자체 실행한다
 
 
-<h1>사용하는 영상 보러가기</h1>
-<br/>
-
-<a href="youtube.com">
-
-  <img src="https://img.shields.io/badge/사용하는 영상-181717?style=flat-square&logo=youtube&logoColor=red"/>
-
-</a>
-<br/>
-
 
 
